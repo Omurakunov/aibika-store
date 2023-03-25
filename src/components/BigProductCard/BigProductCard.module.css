@@ -1,0 +1,114 @@
+.card {
+  width: 100%;
+  height: 350px;
+  background: white;
+  display: flex;
+  margin-top: 100px;
+  border-radius: 10px;
+  align-items: center;
+  padding: 15px;
+  gap: 40px;
+}
+.card img {
+  height: 300px;
+}
+
+.productInfo {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.productInfo h1 {
+  font-size: 22px;
+}
+.productInfo .description {
+  font-size: 24px;
+  color: #5C5C5C;
+  margin: 25px 0;
+}
+
+.price {
+  color: #009393;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.stars {
+  display: flex;
+}
+.stars svg {
+  width: 20px;
+  color: #F8E329;
+}
+
+.colors {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.colors p {
+  font-weight: 600;
+}
+
+.blue {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #4BA3E5;
+}
+
+.green {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #00AD97;
+}
+
+.red {
+  background: #E27373;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.black {
+  background: #000;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.outlineButton {
+  height: 45px;
+  padding: 0 10px;
+  background: white;
+  border: 2px solid #009393;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: #009393;
+  font-weight: 400;
+}
+.outlineButton svg {
+  width: 25px;
+  height: 25px;
+  color: #009393;
+}
+
+.solidButton {
+  height: 45px;
+  padding: 0 10px;
+  background: #009393;
+  border-radius: 10px;
+  color: white;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=BigProductCard.module.css.map */

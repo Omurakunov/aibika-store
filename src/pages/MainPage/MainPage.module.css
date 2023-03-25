@@ -1,0 +1,46 @@
+.mainPage {
+  flex-grow: 1;
+  display: flex;
+  gap: 70px;
+  margin-top: 50px;
+}
+
+.products {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.swiperContainer {
+  width: 100%;
+  position: relative;
+}
+
+.swiper {
+  width: 100%;
+  position: relative;
+}
+
+.overflow {
+  width: 70px;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 3;
+}
+
+.dailyDeals {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  gap: 15px;
+  flex-grow: 1;
+}
+.dailyDeals .title {
+  color: #009393;
+}
+
+/*# sourceMappingURL=MainPage.module.css.map */
